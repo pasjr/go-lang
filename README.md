@@ -2,7 +2,7 @@
 
 This repository can be used to start some project using
 go language. It includes a Dockerfile which can be used
-to start the go application.
+to start the go application in docker container.
 
 ## Prerequisites
 
@@ -13,8 +13,8 @@ to start the go application.
 
 You can start this app running:
 
- - docker build -t <image> 
- - docker run <image>
+ - docker build -t \<image\>
+ - docker run \<image\>
 
 You can use the image directly from Docker Hub:
 
@@ -23,6 +23,8 @@ You can use the image directly from Docker Hub:
 ## Example
 
 ➜  go-start git:(master) ✗ docker run pedrosouzajr/golang-start
+
 Hello World !!!%
-➜  go-start git:(master) ✗ 
+
+➜  go-start git:(master) ✗
 
