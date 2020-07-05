@@ -1,8 +1,8 @@
 # Starting GO Programming Language
 
 This repository can be used to start some project using
-go language. It includes a Dockerfile which can be used
-to start the go application in docker container.
+go language. It includes a Dockerfile configured to start
+the go application in docker container.
 
 ## Prerequisites
 
